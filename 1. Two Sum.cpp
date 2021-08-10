@@ -18,3 +18,22 @@ vector<int> twoSum(vector<int> &nums, int target)
 
     return {-1, -1};
 }
+
+// O(n) Hashmap
+
+vector<int> twoSum(vector<int> &nums, int target)
+{
+    unordered_map<int, int> diffMap;
+
+    for (int i = 0; i < nums.size(); i++)
+    {
+        int diff = target - nums[i];
+
+        if (diffMap.find(diff) != diffMap.end()) //found
+            return {i, diffMap[diff]};
+
+        diffMap.insert({nums[i], i});
+    }
+
+    return {-1, -1};
+}
