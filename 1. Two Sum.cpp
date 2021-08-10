@@ -24,16 +24,16 @@ vector<int> twoSum(vector<int> &nums, int target)
 
 vector<int> twoSum(vector<int> &nums, int target)
 {
-    unordered_map<int, int> diffMap;
+    unordered_map<int, int> cMap;
 
     for (int i = 0; i < nums.size(); i++)
     {
-        int diff = target - nums[i];
+        int complement = target - nums[i];
 
-        if (diffMap.find(diff) != diffMap.end()) //found
-            return {i, diffMap[diff]};
+        if (cMap.find(complement) != cMap.end()) //found
+            return {i, cMap[complement]};
 
-        diffMap.insert({nums[i], i});
+        cMap.insert({nums[i], i});
     }
 
     return {-1, -1};
