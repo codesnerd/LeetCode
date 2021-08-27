@@ -10,7 +10,7 @@ This repository contains my accepted and run-time optimized LeetCode solutions. 
 ### Built With
 * Programming solutions are done in C++.
 
-### If you found the repo useful, do support it by giving a star. ⭐
+### If you find the repo useful, do support it by giving a star. ⭐
 
 ## 🖋 Author
 Follow my GitHub profile to stay updated with my latest projects:
