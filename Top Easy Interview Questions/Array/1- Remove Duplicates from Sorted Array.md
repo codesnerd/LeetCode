@@ -1,5 +1,5 @@
 Problem: [Remove Duplicates from Sorted Array](https://leetcode.com/explore/interview/card/top-interview-questions-easy/92/array/727/) <br>
-Solution: [Link](https://github.com/codesnerd/LeetCode/blob/main/Top%20Interview%20Questions%20-%20Easy%20Collection/Array/1-%20Remove%20Duplicates%20from%20Sorted%20Array.cpp)
+Solution: [Link](https://github.com/codesnerd/LeetCode/blob/main/Top%20Easy%20Interview%20Questions/Array/1-%20Remove%20Duplicates%20from%20Sorted%20Array.cpp)
 
 ## Two-pointer Technique
 
