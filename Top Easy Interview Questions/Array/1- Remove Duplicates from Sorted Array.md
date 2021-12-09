@@ -8,7 +8,7 @@ Solution: [Link](https://github.com/codesnerd/LeetCode/blob/main/Top%20Easy%20In
 1. For a non-empty array, `j` keeps track of the last visited unique element.
 
 2. The `i` loop runs throughout the array and at each index:
-   1. Checks whether the current element `nums[i]` is equal to the last visited unique element `nums[j]`.
+   - Checks whether the current element `nums[i]` is equal to the last visited unique element `nums[j]`.
       - If it's not, this means that we have found a new unique element.
       - We then insert this new element at `nums[++j]`.
 3. We increment `j` by 1 before exiting the `if` condition in order to return the correct size of the "new array".
