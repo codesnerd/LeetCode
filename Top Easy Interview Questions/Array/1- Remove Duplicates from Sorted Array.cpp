@@ -7,10 +7,8 @@ int removeDuplicates(vector<int>& nums)
     if (nums.size())
     {
         for (int i = 1; i < nums.size(); i++)
-        {
             if (nums[i] != nums[j])
                 nums[++j] = nums[i];
-        }
 
         j++;
     }
